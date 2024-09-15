@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures responsive page view with default device view and set default zoom ratio -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery with Bootstrap</title>
+    <!-- Add Bootstrap library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Call the CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo/Portrait of Abdullah.jpg" alt="Portrait of Abdullah">
+        <nav>
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Welcome to Our Gallery</h1>
+    <p>Participating in many events with the government and private sector to gain experience and practical and professional skills, I won with my team the third place in the event of modern technologies.</p>
+
+    <!-- هنا نستخدم Bootstrap لهيكلة الشبكة -->
+    <div id="gallery" class="container mt-5">
+        <div class="row gallery-item mb-4">
+            <div class="col-md-4">
+                <img src="img/Show photos/misk_skills.jpg" class="img-fluid" alt="misk_skills">
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+                <div>
+                    <h2>misk skills</h2>
+                    <p>A photo of my honor at the modern technologies event: a journey to enable the future in collaboration between Misk skills and stc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gallery-item mb-4">
+            <div class="col-md-4">
+                <img src="img/Show photos/Aramco.jpg" class="img-fluid" alt="Aramco">
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+                <div>
+                    <h2>Saudi media forum 3</h2>
+                    <p>I had an educational experience at the Saudi media forum 3 to enhance my content writing skills and highlight the most important points for the recipient.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gallery-item mb-4">
+            <div class="col-md-4">
+                <img src="img/Show photos/Saudi authority for industrial cities and technology zones.jpg" class="img-fluid" alt="Saudi authority for industrial cities and technology zones">
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+                <div>
+                    <h2>Saudi authority for industrial cities and technology zones</h2>
+                    <p>Participating in organizing the National Day ceremony of the Saudi authority for industrial cities and technology zones.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gallery-item mb-4">
+            <div class="col-md-4">
+                <img src="img/Show photos/The royal commission of the holy city of Mecca and the holy sites.jpg" class="img-fluid" alt="The royal commission of the holy city of Mecca and the holy sites">
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+                <div>
+                    <h2>The royal commission of the holy city of Mecca and the holy sites</h2>
+                    <p>The director of the theater activation project in the Khasra ein Zubaida project in cooperation with the royal commission of the holy city of Mecca and the holy sites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Abdullah Alhaoussawi. All rights reserved.</p>
+    </footer>
+
+    <!-- إضافة مكتبة Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
